@@ -1,0 +1,139 @@
+/*-------------------------*/
+/* 画面全体に適用のCSS開始 */
+body{
+  font-family: "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  font-size: 14px;
+  background-image: url(../img/pattern_1.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+}
+/* 画面全体に適用のCSS終了 */
+/*-------------------------*/
+
+
+
+/*-----------------------------*/
+/* メインコンテンツ用のCSS開始 */
+#main{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+/*-----------------------------*/
+/* メインコンテンツ用のCSS開始 */
+
+
+
+/*-------------------------*/
+/* タイトル画面用のCSS開始 */
+#title{
+  height: 700px;
+  padding: 0;
+}
+
+#title > h1{
+  margin-top: 150px;
+  font-family: 'Sacramento', cursive;
+  font-size: 200px;
+}
+/* タイトル画面用のCSS終了 */
+/*-------------------------*/
+
+
+
+/*-------------------------------*/
+/* プロフィール画面全体用のCSS開始 */
+#about{
+  margin-top: 20px;
+}
+
+#about > h1{
+  text-align:center;
+  font-family: 'Sacramento', cursive;
+  font-size: 100px;
+  border-bottom: 1px solid;
+}
+
+#about .row{
+} 
+/* プロフィール画面全体用のCSS終了 */
+/*-------------------------------*/
+
+
+
+/*-----------------------------*/
+/* プロフィール画面左側用CSS開始 */
+#about .left_side{
+  height: 300px;
+  padding-top: 10px;
+  text-align:center;
+  background-color: #ffffff;
+}
+/* プロフィール画面左側用CSS終了 */
+/*-----------------------------*/
+
+
+
+/*-----------------------------*/
+/* プロフィール画面右側用CSS開始 */
+#about .right_side{
+  height: 300px;
+}
+
+#about .right_side > img{
+  height: 300px;
+  width: 70%;
+  background-color: #ffffff;
+  border: 1px solid;
+}
+/* プロフィール画面右側用CSS終了 */
+/*-----------------------------*/
+
+
+
+/*-----------------------------*/
+/* 作品紹介画面用CSS開始 */
+#works{
+  margin-top: 20px;
+}
+
+#works > h1{
+  text-align:center;
+  font-family: 'Sacramento', cursive;
+  font-size: 100px;
+  border-bottom : 1px solid;
+}
+
+#works .up_side{
+}
+
+#works .work_contents{
+  height: 300px;
+  text-align: center;
+}
+
+#works .work_contents > img{
+  height: 250px;
+  width: 70%;
+  background-color: #ffffff;
+  border: 1px solid;
+}
+
+#works .work_contents .btn{
+  margin-top: 10px;
+}
+
+
+
+/*---------------------*/
+/* フッター用のCSS開始 */
+#footer{
+  height: 20px;
+}
+
+#footer .copy_right{
+  height: 20px;
+}
+/* フッター用のCSS終了 */
+/*---------------------*/

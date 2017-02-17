@@ -1,0 +1,44 @@
+/* メニュー関連の変更用開始 */
+/* navbarの変更 */
+.navbar-default{
+  font-family: "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  font-size: 14px;
+  background-color: rgba(204, 198, 175, 0.8);
+  border: none;
+}
+
+/* navbar-navの変更*/
+.navbar-default .navbar-nav > li > a{
+  color: #ffffff;
+}
+
+/* navbar-toggleの変更 */
+.navbar-default .navbar-toggle{
+  border-color: #ffffff;
+}
+
+/* icon-barの変更 */
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #ffffff;
+}
+
+/* focus,hoverした際の処理*/
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover{
+  background-color: #CCCCCC;
+  border-color: #000000;
+}
+
+/* focus,hoverした際の処理*/  
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover{
+  background-color: #CCCCCC;
+  border-color: #000000;
+}
+
+/* focus,hoverした際の処理*/ 
+.navbar-default .navbar-toggle:focus > .icon-bar,
+.navbar-default .navbar-toggle:hover > .icon-bar{
+  background-color: #000000;
+}
+/* メニュー関連の変更用終了 */

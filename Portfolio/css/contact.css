@@ -1,0 +1,119 @@
+/*-------------------------*/
+/* 画面全体に適用のCSS開始 */
+body{
+  font-family: "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  font-size: 14px;
+  background-image: url(../img/pattern_1.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+}
+/* 画面全体に適用のCSS終了 */
+/*-------------------------*/
+
+
+
+/*-----------------------------*/
+/* メインコンテンツ用のCSS開始 */
+#main{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+/*-----------------------------*/
+/* メインコンテンツ用のCSS開始 */
+
+
+
+/*-------------------------*/
+/* タイトル画面用のCSS開始 */
+.title{
+  height: 150px;
+  padding: 0;
+  border-bottom: 1px solid;
+}
+
+.title > h1{
+  height: 110px;
+  padding-top: 10px;
+  font-family: 'Sacramento', cursive;
+  font-size: 100px;
+  text-align: center;
+}
+/* タイトル画面用のCSS終了 */
+/*-------------------------*/
+
+
+
+/*-------------------------------*/
+/* コンタクト画面全体用のCSS開始 */
+.contact{
+  margin-top: 20px;
+}
+
+.row{
+} 
+/* コンタクト画面全体用のCSS終了 */
+/*-------------------------------*/
+
+
+
+/*-----------------------------*/
+/* コンタクト画面左側用CSS開始 */
+.left_side{
+  height: 550px;
+  padding-top: 10px;
+  font-family: 'Sacramento', cursive;
+  font-size: 35px;
+}
+
+.left_side .form-group{
+  margin-bottom: 50px;
+}
+
+.left_side .form-control{
+  border: 1px solid black;
+}
+/* コンタクト画面左側用CSS終了 */
+/*-----------------------------*/
+
+
+
+/*-----------------------------*/
+/* コンタクト画面右側用CSS開始 */
+.right_side{
+  height: 550px;
+  padding-top: 10px;
+  font-family: 'Sacramento', cursive;
+  font-size: 35px;
+}
+
+.right_side .message{
+  text-align: center;
+}
+
+.right_side .form-control{
+  height: 350px;
+  border: 1px solid black;
+}
+
+.right_side .submit_btn{
+  margin-top: 10px;
+  padding: 0;
+}
+/* コンタクト画面右側用CSS終了 */
+/*-----------------------------*/
+
+
+
+/*---------------------*/
+/* フッター用のCSS開始 */
+#footer{
+  height: 20px;
+}
+
+#footer .copy_right{
+  height: 20px;
+}
+/* フッター用のCSS終了 */
+/*---------------------*/

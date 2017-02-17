@@ -1,0 +1,153 @@
+/*-------------------------*/
+/* 画面全体に適用のCSS開始 */
+body{
+  font-family: "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  font-size: 14px;
+  background-image: url(../img/pattern_1.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+}
+/* 画面全体に適用のCSS終了 */
+/*-------------------------*/
+
+
+
+/*-----------------------------*/
+/* メインコンテンツ用のCSS開始 */
+#main{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+/*-----------------------------*/
+/* メインコンテンツ用のCSS開始 */
+
+
+
+/*-------------------------*/
+/* タイトル画面用のCSS開始 */
+.title{
+  height: 150px;
+  padding: 0;
+  border-bottom: 1px solid;
+}
+
+.title > h1{
+  height: 110px;
+  padding-top: 10px;
+  font-family: 'Sacramento', cursive;
+  font-size: 100px;
+  text-align: center;
+}
+/* タイトル画面用のCSS終了 */
+/*-------------------------*/
+
+
+
+/*-------------------------------*/
+/* 作品紹介画面全体用のCSS開始 */
+.work{
+  margin-top: 20px;
+}
+
+.row{
+} 
+/* 作品紹介画面全体用のCSS終了 */
+/*-------------------------------*/
+
+
+
+/*-----------------------------*/
+/* 作品紹介画面左側用CSS開始 */
+.left_side{
+  height: 600px;
+  padding-top: 10px;
+  background-color: #ffffff;
+}
+
+.left_side > h1{
+}
+
+.left_side > p{
+}
+/* 作品紹介画面左側用CSS終了 */
+/*-----------------------------*/
+
+
+
+/*-----------------------------*/
+/* 作品紹介画面右側用CSS開始 */
+.right_side{
+  height: 600px;
+  padding-top: 10px;
+}
+
+.right_side > img{
+  height: 580px;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+
+/* 作品紹介画面右側用CSS終了 */
+/*-----------------------------*/
+
+
+
+/*---------------------------------------*/
+/* その他の作品紹介タイトル画面用CSS開始 */
+.title2{
+  height: 80px;
+  margin-top: 20px;
+  padding: 0;
+  border-bottom: 1px solid;
+}
+
+.title2 > h1{
+  height: 40px;
+  font-family: 'Sacramento', cursive;
+}
+/* その他の作品紹介タイトル画面用CSS開始 */
+/*---------------------------------------*/
+
+
+
+/*-------------------------------*/
+/* その他の作品紹介画面用CSS開始 */
+.other_works{
+  text-align: center;
+}
+
+.col-sm-2{
+  height: 240px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.work_img{
+  height: 180px;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+
+.btn{
+  margin-top: 5px;
+}
+/* その他の作品紹介画面用CSS開始 */
+/*-------------------------------*/
+
+
+
+/*---------------------*/
+/* フッター用のCSS開始 */
+#footer{
+  height: 20px;
+}
+
+#footer .copy_right{
+  height: 20px;
+}
+/* フッター用のCSS終了 */
+/*---------------------*/

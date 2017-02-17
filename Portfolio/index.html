@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- ポートフォリオの作成 -->
+<html lang="ja">
+  <!-- ホーム画面の記載開始 -->
+  <!-- Bootstrapを使用しての記述方法 -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Sample</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- 自作のcssの読み込み -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/my_navbar.css">
+    <!-- googleフォントの読み込み -->
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    <!-- jQuery.jsの読み込み -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+    <script>
+    //スムーズスクロール
+    jQuery(function(){
+    	// ★　任意のズレ高さピクセル数を入力　↓
+    	var headerHight = 50;
+      // #で始まるアンカーをクリックした場合に処理
+      jQuery('a[href^=#]').click(function() {
+        // スクロールの速度
+        var speed = 400; // ミリ秒
+        // アンカーの値取得
+        var href= jQuery(this).attr("href");
+        // 移動先を取得
+        var target = jQuery(href == "#" || href == "" ? 'html' : href);
+        // 移動先を数値で取得
+        var position = target.offset().top-headerHight; // ※　-headerHightでズレの処理
+        // スムーズスクロール
+        jQuery('body,html').animate({scrollTop:position}, speed, 'swing');
+        return false;
+      });
+    });
+    </script>
+  </head>
+  
+  <body>
+    <header id = "header">
+      <!-- ナビゲーションのメニューの記載開始 -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class = "container-fluid">
+        <!-- メニューを閉じたときの表示を記載開始 -->
+          <div class = "navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sitemenu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <!-- メニューを閉じたときの表示を記載終了 -->
+          <!-- メニューが開いているときの表示を記載開始 -->
+          <div class="collapse navbar-collapse" id="sitemenu">
+            <ul class = "nav navbar-nav navbar-right">
+              <li><a href = "#header"><strong>Home</strong></a></li>
+              <li><a href = "#about"><strong>About</strong></a></li>
+              <li><a href = "#works"><strong>Works</strong></a></li>
+              <li><a href = "contact.html"><strong>Contact</strong></a></li>
+            </ul>
+          </div>
+          <!-- メニューが開いているときの表示を記載終了 -->
+        </div>
+      </nav>
+      <!-- ナビゲーションのメニューの記載終了 -->
+    </header>
+    
+    <!-- メインコンテンツの記載開始 -->
+    <main id = "main">
+      <!-- タイトルの記載開始 -->
+      <div id = "title" class = "container">
+        <h1>Portfolio</h1>
+      </div>
+      <!-- タイトルの記載終了 -->
+      
+      <!-- プロフィール画面の記載開始 -->
+      <div id = "about" class = "container">
+        <!-- プロフィール画面タイトルの記載開始 -->
+        <h1>About</h1>
+        <!-- プロフィール画面タイトルの記載終了 -->
+        <!-- プロフィール画面内容の記載開始 -->
+        <div class = "row">
+          <!-- プロフィール画面左側の記載開始 -->
+          <div class = "left_side col-sm-5 col-sm-offset-1">
+            <p>xxxxxxxxxxxxxxxxx</p>
+            <p>xxxxxxxxxxxxxxxxx</p>
+            <p>xxxxxxxxxxxxxxxxx</p>
+            <p>xxxxxxxxxxxxxxxxx</p>
+            <p>xxxxxxxxxxxxxxxxx</p>
+            <p>xxxxxxxxxxxxxxxxx</p>
+            <p>xxxxxxxxxxxxxxxxx</p>
+          </div>
+          <!-- プロフィール画面左側の記載終了 -->
+          <!-- プロフィール画面右側の記載開始 -->
+          <div class = "right_side col-sm-5">
+            <img src="img/graphic-01.png" class = "img-responsive img-circle center-block" alt = ""></img>
+          </div>
+          <!-- プロフィール画面右側の記載終了 -->
+        </div>
+      </div>
+      <!-- プロフィール画面内容の記載終了 -->
+      
+      <!-- 作品一覧画面の記載開始 -->
+      <div id = "works" class = "container">
+        <!-- 作品一覧画面タイトルの記載開始 -->
+        <h1>Works</h1>
+        <!-- 作品一覧画面タイトルの記載終了 -->
+        <!-- 作品一覧一段目の記載開始 -->
+        <div class = "up_side row">
+          <div class = "work_contents col-sm-4">
+            <img src="img/graphic-01.png" class = "img-responsive img-circle center-block" alt = ""></img>
+            <p><a href="work1.html" class="btn btn-primary" role="button">read more</a></p>
+          </div>
+          <div class = "work_contents col-sm-4">
+            <img src="img/graphic-01.png" class = "img-responsive img-circle center-block" alt = ""></img>
+            <p><a href="work2.html" class="btn btn-primary" role="button">read more</a></p>
+          </div>
+          <div class = "work_contents col-sm-4">
+            <img src="img/graphic-01.png" class = "img-responsive img-circle center-block" alt = ""></img>
+            <p><a href="work3.html" class="btn btn-primary" role="button">read more</a></p>
+          </div>
+        </div>
+        <!-- 作品一覧一段目の記載終了 -->
+        <!-- 作品一覧一段目の記載開始 -->
+        <div class = "up_side row">
+          <div class = "work_contents col-sm-4">
+            <img src="img/graphic-01.png" class = "img-responsive img-circle center-block" alt = ""></img>
+            <p><a href="work4.html" class="btn btn-primary" role="button">read more</a></p>
+          </div>
+          <div class = "work_contents col-sm-4">
+            <img src="img/graphic-01.png" class = "img-responsive img-circle center-block" alt = ""></img>
+            <p><a href="work5.html" class="btn btn-primary" role="button">read more</a></p>
+          </div>
+          <div class = "work_contents col-sm-4">
+            <img src="img/graphic-01.png" class = "img-responsive img-circle center-block" alt = ""></img>
+            <p><a href="work6.html" class="btn btn-primary" role="button">read more</a></p>
+          </div>
+        </div>
+        <!-- 作品一覧一段目の記載終了 -->
+      </div>
+      <!-- 作品一覧画面の記載終了 -->
+    </main>
+    <!-- メインコンテンツの記載開始 -->
+
+    <!-- フッターの記載開始 -->
+    <footer id = "footer">
+        <p class="copy_right text-center"><strong>Copyright &copy; 2017 Takuya kainuma.</strong></p>
+    </footer>
+    <!-- フッターの記載終了 -->
+  </body>
+</html>
