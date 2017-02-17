@@ -1,5 +1,10 @@
 /*-------------------------*/
 /* 画面全体に適用のCSS開始 */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body{
   font-family: "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
   font-size: 14px;
@@ -16,19 +21,21 @@ body{
 
 /*-----------------------------*/
 /* メインコンテンツ用のCSS開始 */
-#main{
+#main {
+  min-height: 100%;
   margin-top: 50px;
-  margin-bottom: 20px;
+  margin-bottom: -20px;
+  border: 2px solid;
 }
-/*-----------------------------*/
 /* メインコンテンツ用のCSS開始 */
+/*-----------------------------*/
 
 
 
 /*-------------------------*/
 /* タイトル画面用のCSS開始 */
 #title{
-  height: 700px;
+  height: 800px;
   padding: 0;
 }
 
